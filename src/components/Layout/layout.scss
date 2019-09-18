@@ -1,0 +1,310 @@
+html, body {
+  margin: 0;
+  background: #eceef0;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  color: rgb(17,45,64);;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #ea2e2d;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.page-container {
+  max-width: 1050px;
+  margin: 0 auto;
+
+  header {
+    background: linear-gradient(to right, #ea2e2d, #ea2e2d, #f04d12, #f04d12, #f87010, #fd940c), #ea2e2d;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+
+    a { 
+      img { 
+        display: block;
+        max-width: 250px;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  main {
+    .landing-content-header {
+      box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+      padding: 20px;
+      border-radius: 2px;
+      margin: 10px 10px 5px 10px;
+      background: #fff;
+      text-align: center;
+
+      h1 {
+        border-bottom: 1px dashed rgba(0,0,0,0.15);
+        padding-bottom: 10px;
+      }
+
+      h3 {
+        font-weight: 400;
+      }
+    }
+
+    .content-header {
+      background: #fff;
+      box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+      padding: 20px;
+      border-radius: 2px;
+      text-align: center;
+      margin: 10px;
+      min-height: calc(100vh - 262px);
+
+      .back-button {
+        background: rgb(17,45,64);
+        color: #fff;
+        padding: 10px 20px;
+        display: inline-block;
+        margin-top: 20px;
+        border-radius: 2px;
+        box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+
+        &:hover {
+          background: #ea2e2d;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .letters {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 5px 5px 5px;
+
+      a {
+        background: rgb(17,45,64);
+        color: #fff;
+        box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 18px;
+        margin: 5px;
+        border-radius: 2px;
+
+        &:hover {
+          background: #ea2e2d;
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .words {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 10px;
+      
+      .word-category {
+        background-color: #fff;
+        box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+        margin-bottom: 10px;
+        border-radius: 2px;
+        position: relative;
+        display: block;
+        padding: 20px 20px 15px 20px;
+        width: 100%;
+
+        @media only screen and (min-width: 767px)  {
+          width: calc(50% - 45px);
+
+          &:nth-child(odd) {
+            margin-right: 5px;
+          }
+
+          &:nth-child(even) {
+            margin-left: 5px;
+          }
+        }
+
+        @media only screen and (min-width: 1050px)  {
+          width: calc(25% - 48px);
+          &:nth-child(odd),
+          &:nth-child(even) {
+            margin: initial;
+          }
+
+          &:nth-child(4n+1) {  
+            margin: 0 5px 10px 0;
+          }
+
+          &:nth-child(4n+2) {  
+            margin: 0 5px 10px 5px;
+          }
+
+          &:nth-child(4n+3) {  
+            margin: 0 5px 10px 5px;
+          }
+
+          &:nth-child(4n+4) {  
+            margin: 0 0 10px 5px;
+          }
+        }
+
+        .word-letter {
+          width: 100%;
+          position: absolute;
+          left: 10px;
+          top: 10px;
+          background-color: rgb(17,45,64);
+          display: inline-block;
+          height: 20px;
+          width: 20px;
+          line-height: 20px;
+          text-align: center;
+          color: #fff;
+          font-size: 14px;
+          border-radius: 2px;
+        }
+  
+        a {
+          width: 100%;
+          display: block;
+          color: #181818;
+          text-align: center;
+          margin-bottom: 5px;
+
+          &:hover {
+            color: #ea2e2d;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    .information {
+      display: flex;
+      flex-wrap: wrap;
+
+      .block {
+        background-color: #fff;
+        border-radius: 2px;
+        box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+        margin: 0 10px 10px 10px;
+        padding: 20px;
+        width: 100%;
+
+        @media only screen and (min-width: 767px)  {
+          width: calc(50% - 55px);
+
+          &:nth-child(odd) {
+            margin-right: 5px;
+          }
+
+          &:nth-child(even) {
+            margin-left: 5px;
+          }
+        }
+
+        h2 {
+          text-align: center;
+        }
+
+        p {
+          text-align: justify;
+        }
+
+        &.five {
+          width: 100%;
+          margin-bottom: 0;
+          margin-right: 10px;
+
+          .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+
+            p {
+              width: 100%;
+
+              @media only screen and (min-width: 1050px)  { 
+                width: 75%;
+              }
+            }
+
+            .image {
+              width: 100%;
+              justify-content: center;
+              align-items: center;
+              display: flex;
+              margin-top: 20px;
+
+              @media only screen and (min-width: 1050px)  { 
+                width: 25%;
+                margin-top: 0;
+              }
+
+              img {
+                display: block;
+                max-width: 175px;
+                margin: 0 auto;
+              }
+            }
+          }
+        }
+
+        h2 {
+          padding-bottom: 10px;
+          border-bottom: 1px dashed rgba(0, 0, 0, 0.15);
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+  footer {
+    padding: 10px 20px;
+    background-color: rgb(17,45,64);
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+
+    div {
+      display: flex;
+      justify-content: center;
+
+      .eighteen {
+        display: flex;
+        margin: 0 5px;
+
+        img {
+          filter: brightness(0) invert(1);
+          max-width: 35px;
+          align-self: center
+        }
+      }
+  
+      .spelinspektionen {
+        display: block;
+        margin: 0 5px;
+
+        img {
+          max-width: 60px;
+        }
+      }
+    }
+  }
+}
