@@ -9,7 +9,7 @@ const Word = () => (
     <SEO title="Vad betyder balans?" />
     <div className="content-header">
       <h1>Vad betyder balans?</h1>
-      <p>Pengar som har tillgängliga att spela för.</p>
+      <p>Pengar som är tillgängliga att spela för.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

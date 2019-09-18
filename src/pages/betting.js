@@ -9,7 +9,7 @@ const Word = () => (
     <SEO title="Vad betyder betting?" />
     <div className="content-header">
       <h1>Vad betyder betting?</h1>
-      <p>En typ av oddsspel som handlar framförallt om skillnaden mellan motståndare.</p>
+      <p>När man försöker förutspå ett matchresultat och gör en satsning.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>
