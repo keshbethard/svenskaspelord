@@ -9,7 +9,7 @@ const Word = () => (
     <SEO title="Vad är Roulette?" />
     <div className="content-header">
       <h1>Vad är Roulette?</h1>
-      <p>Ett hasardspel som bland annat förekommer på casinon.</p>
+      <p>Ett <Link to="/hasardspel">hasardspel</Link> som bland annat förekommer på casinon.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

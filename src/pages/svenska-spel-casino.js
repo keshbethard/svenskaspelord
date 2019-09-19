@@ -6,10 +6,10 @@ import SEO from "../components/seo"
 
 const Word = () => (
   <Layout>
-    <SEO title="Vad är spelbolag?" />
+    <SEO title="Svenska Spel casino" />
     <div className="content-header">
-      <h1>Vad är spelbolag?</h1>
-      <p>Ett bolag som tillhandahåller spel om pengar i form av <Link to="/casino">casino</Link> och vadslagning.</p>
+      <h1>Svenska Spel casino</h1>
+      <p>Den officiella Svenska Spel <Link to="/casino">casino</Link> produkt. Du kan besöka den <a href="https://spela.svenskaspel.se/casino" target="_blank" rel="nofollow">här</a>.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

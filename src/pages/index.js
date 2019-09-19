@@ -9,10 +9,6 @@ import alcasino from "../images/alcasino.png"
 const IndexPage = () => (
   <Layout>
     <SEO title="Svenska casino och betting ord" />
-    <div className="landing-content-header">
-      <h1>Svenska casino och betting ord</h1>
-      <h3>Vi förklarar alla casino och betting ord, termer, begrepp och slangord.</h3>
-    </div>
 
     <div className="letters">
       <Link to="/#0">0</Link>
@@ -42,6 +38,14 @@ const IndexPage = () => (
       <Link to="/#y">Y</Link>
       <Link to="/#oa">Ö</Link>
     </div>
+
+    <div className="landing-content-header">
+      <div>
+        <h1>Svenska casino och betting ord</h1>
+        <h3>Vi förklarar alla casino och betting ord, termer, begrepp och slangord.</h3>
+      </div>
+    </div>
+
     <div className="words">
       {/* 0-9 */}
       <div className="word-category" id="0">
@@ -114,6 +118,7 @@ const IndexPage = () => (
         <Link to="/evolution-gaming/">Evolution Gaming</Link>
         <Link to="/extra-spins/">Extra spins</Link>
         <Link to="/extreme-live-gaming/">Extreme Live Gaming</Link>
+        <Link to="/europatipset/">Europatipset</Link>
         <Link to="/eye-in-the-sky/">Eye in the sky</Link>
         <Link to="/ezugi/">Ezugi</Link>
       </div>
@@ -214,7 +219,7 @@ const IndexPage = () => (
       <div className="word-category" id="o">
         <div className="word-letter">O</div>
         <Link to="/odds/">Odds</Link>
-        <Link to="/oddsspel/">Oddspel</Link>
+        <Link to="/oddsspel/">Oddsspel</Link>
         <Link to="/oddsraknare/">Oddsräknare</Link>
         <Link to="/omsattningskrav/">Omsättningskrav</Link>
       </div>
@@ -264,7 +269,9 @@ const IndexPage = () => (
         <Link to="/sure-bets/">Sure bets</Link>
         <Link to="/svensk-spellicens/">Svensk spellicens</Link>
         <Link to="/svenska-casino/">Svenska casino</Link>
+        <Link to="/sv-spel/">Sv Spel</Link>
         <Link to="/svenska-spel/">Svenska Spel</Link>
+        <Link to="/svenska-spel-casino/">Svenska Spel casino</Link>
         <Link to="/swish/">Swish</Link>
       </div>
 

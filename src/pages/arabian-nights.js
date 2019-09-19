@@ -9,7 +9,7 @@ const Word = () => (
     <SEO title="Vad är Arabian Nights?" />
     <div className="content-header">
       <h1>Vad är Arabian Nights?</h1>
-      <p>En populär jackpot spelautomat från NetEnt.</p>
+      <p>En populär jackpot spelautomat från <Link to="/netent">NetEnt</Link>.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>
