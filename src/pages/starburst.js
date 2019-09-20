@@ -9,7 +9,7 @@ const Word = () => (
     <SEO title="Vad är Starburst?" />
     <div className="content-header">
       <h1>Vad är Starburst?</h1>
-      <p>En av de absolut populäraste slots av NetEnt som erbjuds av de flesta casino online.</p>
+      <p>En av de absolut populäraste slots av <Link to="/netent">NetEnt</Link> som erbjuds av de flesta <Link to="/casino-online">casino online</Link>.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

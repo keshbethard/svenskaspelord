@@ -6,10 +6,10 @@ import SEO from "../components/seo"
 
 const Word = () => (
   <Layout>
-    <SEO title="Vad betyder slots?" />
+    <SEO title="Vad är Big Time Gaming?" />
     <div className="content-header">
-      <h1>Vad betyder slots?</h1>
-      <p>Också känt som enarmade banditer, spelautomater och spelmaskiner, är olika spel som erbjuds av <Link to="/casino">casino</Link>.</p>
+      <h1>Vad är Big Time Gaming?</h1>
+      <p>En spelutvecklare inom <Link to="/casino-online">casino online</Link> med bas i Sydney, Australien.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

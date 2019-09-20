@@ -6,10 +6,10 @@ import SEO from "../components/seo"
 
 const Word = () => (
   <Layout>
-    <SEO title="Vad betyder slots?" />
+    <SEO title="Vad är Blueprint Gaming?" />
     <div className="content-header">
-      <h1>Vad betyder slots?</h1>
-      <p>Också känt som enarmade banditer, spelautomater och spelmaskiner, är olika spel som erbjuds av <Link to="/casino">casino</Link>.</p>
+      <h1>Vad är Blueprint Gaming?</h1>
+      <p>Blueprint Gaming är en speltillverkare från USA och som tillverkar spel för <Link to="/casino-online">casino online</Link>, <Link to="/mobilcasino">mobilcasinon</Link> och <Link to="/casino">landbaserade casinon</Link>.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

@@ -6,10 +6,10 @@ import SEO from "../components/seo"
 
 const Word = () => (
   <Layout>
-    <SEO title="Vad betyder slots?" />
+    <SEO title="Vad är Jammin Jars?" />
     <div className="content-header">
-      <h1>Vad betyder slots?</h1>
-      <p>Också känt som enarmade banditer, spelautomater och spelmaskiner, är olika spel som erbjuds av <Link to="/casino">casino</Link>.</p>
+      <h1>Vad är Jammin Jars?</h1>
+      <p>Ett mycket populär spel från <Link to="/push-gaming">Push Gaming</Link>.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

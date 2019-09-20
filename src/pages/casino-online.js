@@ -9,7 +9,7 @@ const Word = () => (
     <SEO title="Vad betyder casino online?" />
     <div className="content-header">
       <h1>Vad betyder casino online?</h1>
-      <p>Motsvarigheten till ett vanligt casino fast på nätet.</p>
+      <p>Motsvarigheten till ett vanligt <Link to="/casino">casino</Link> fast på nätet.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

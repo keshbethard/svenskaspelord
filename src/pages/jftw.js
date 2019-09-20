@@ -6,10 +6,10 @@ import SEO from "../components/seo"
 
 const Word = () => (
   <Layout>
-    <SEO title="Vad betyder slots?" />
+    <SEO title="Vad är JFTW?" />
     <div className="content-header">
-      <h1>Vad betyder slots?</h1>
-      <p>Också känt som enarmade banditer, spelautomater och spelmaskiner, är olika spel som erbjuds av <Link to="/casino">casino</Link>.</p>
+      <h1>Vad är JTTW?</h1>
+      <p>Förkortning för Just For The Win, är en speltillverkare för <Link to="/casino-online">online casino</Link>.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>
