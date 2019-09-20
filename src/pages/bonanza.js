@@ -9,7 +9,7 @@ const Word = () => (
     <SEO title="Vad är Bonanza?" />
     <div className="content-header">
       <h1>Vad är Bonanza?</h1>
-      <p>Känd slots spel från Big Time Gaming.</p>
+      <p>Känd slots spel från <Link to="/big-time-gaming">Big Time Gaming</Link>.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

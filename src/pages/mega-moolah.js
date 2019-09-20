@@ -9,7 +9,7 @@ const Word = () => (
     <SEO title="Vad är Mega Moolah?" />
     <div className="content-header">
       <h1>Vad är Mega Moolah?</h1>
-      <p>Jackpotslot som har delat ut de största vinsterna någonsin på casino online.</p>
+      <p>Jackpotslot som har delat ut de största vinsterna någonsin på <Link to="/casino-online">casino online</Link>.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

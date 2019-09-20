@@ -6,10 +6,10 @@ import SEO from "../components/seo"
 
 const Word = () => (
   <Layout>
-    <SEO title="Vad är Kalamba?" />
+    <SEO title="Vad betyder nätcasino?" />
     <div className="content-header">
-      <h1>Vad är Kalamba?</h1>
-      <p>Kalamba är en internationell speltillverkare som släppte sin första spelautomat 2017. Speltillverkaren är baserad på Malta och Krakow, Polen.</p>
+      <h1>Vad betyder nätcasino?</h1>
+      <p>Annat ord för <Link to="/casino-online">casino online</Link>.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

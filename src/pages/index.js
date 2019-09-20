@@ -192,6 +192,7 @@ const IndexPage = () => (
         <div className="word-letter">K</div>
         <Link to="/kalamba/">Kalamba</Link>
         <Link to="/kambi/">Kambi</Link>
+        <Link to="/kasino/">Kasino</Link>
         <Link to="/keno/">Keno</Link>
         <Link to="/klassiska-slots/">Klassiska slots</Link>
         <Link to="/kuperingskort/">Kuperingskort</Link>
@@ -231,6 +232,7 @@ const IndexPage = () => (
         <Link to="/neteller/">Neteller</Link>
         <Link to="/nextgen">NextGen</Link>
         <Link to="/nolimit-city/">Nolimit City</Link>
+        <Link to="/natcasino/">Nätcasino</Link>
       </div>
 
       {/* O */}
