@@ -6,10 +6,10 @@ import SEO from "../components/seo"
 
 const Word = () => (
   <Layout>
-    <SEO title="Vad är turnering?" />
+    <SEO title="Vad är Quickfire?" />
     <div className="content-header">
-      <h1>Vad är turnering?</h1>
-      <p>En turnering som anordnas av ett casino och kan vara i olika former och oftast går ut på att samla poäng. Spelare som vinner oftast delar på en summa pengar, freespins eller andra priser.</p>
+      <h1>Vad är Quickfire?</h1>
+      <p>Casino spelutvecklare som är känd för speltitlar som Dream Date, Break Away, Thunderstruck och Bar Bar Black Sheep.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

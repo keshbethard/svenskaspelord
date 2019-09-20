@@ -74,6 +74,7 @@ const IndexPage = () => (
         <Link to="/balans/">Balans</Link>
         <Link to="/bankid/">BankID</Link>
         <Link to="/bankroll/">Bankroll</Link>
+        <Link to="/betsoft/">Betsoft</Link>
         <Link to="/betting/">Betting</Link>
         <Link to="/betting-bonus/">Betting bonus</Link>
         <Link to="/betting-online/">Betting online</Link>
@@ -163,11 +164,14 @@ const IndexPage = () => (
       {/* I */}
       <div className="word-category" id="i">
         <div className="word-letter">I</div>
+        <Link to="/igt/">IGT</Link>
+        <Link to="/imperial-riches/">Imprerial Riches</Link>
         <Link to="/insattsniva/">Insattsnivå</Link>
         <Link to="/insattningsbonus/">Insättningsbonus</Link>
         <Link to="/insattningskrav/">Insättningskrav</Link>
         <Link to="/inspired-gaming/">Inspired Gaming</Link>
         <Link to="/iron-dog/">Iron Dog</Link>
+        <Link to="/isoftbet/">iSoftBet</Link>
       </div>
 
       {/* J */}
@@ -196,6 +200,7 @@ const IndexPage = () => (
       {/* L */}
       <div className="word-category" id="l">
         <div className="word-letter">L</div>
+        <Link to="/leovegas/">LeoVegas</Link>
         <Link to="/live-casino/">Live casino</Link>
         <Link to="/live-game-show/">Live game show</Link>
         <Link to="/liveodds/">Liveodds</Link>
@@ -210,9 +215,11 @@ const IndexPage = () => (
       <div className="word-category" id="m">
         <div className="word-letter">M</div>
         <Link to="/matchningsbonus/">Matchningsbonus</Link>
+        <Link to="/mega-fortune">Mega Fortune</Link>
         <Link to="/mega-moolah/">Mega Moolah</Link>
         <Link to="/microgaming/">Microgaming</Link>
         <Link to="/mobilcasino/">Mobilcasino</Link>
+        <Link to="/mr-green/">Mr Green</Link>
         <Link to="/mynt/">Mynt</Link>
       </div>
 
@@ -251,6 +258,7 @@ const IndexPage = () => (
       <div className="word-category" id="q">
         <div className="word-letter">Q</div>
         <Link to="/quads/">Quads</Link>
+        <Link to="/quickfire/">Quickfire</Link>
         <Link to="/quickspin/">Quickspin</Link>
       </div>
 
@@ -296,6 +304,7 @@ const IndexPage = () => (
       <div className="word-category" id="t">
         <div className="word-letter">T</div>
         <Link to="/tc/">T&C</Link>
+        <Link to="/trustly-casino/">Trustly casino</Link>
         <Link to="/three-card-poker/">Three Card Poker</Link>
         <Link to="/turbo-spins/">Turbo spins</Link>
         <Link to="/turnering/">Turnering</Link>
@@ -305,11 +314,12 @@ const IndexPage = () => (
       <div className="word-category" id="v">
         <div className="word-letter">V</div>
         <Link to="/valkomstbonus/">Välkomstbonus</Link>
+        <Link to="/videopoker/">Videopoker</Link>
+        <Link to="/videoslots/">Videoslots</Link>
         <Link to="/vinstlinje/">Vinstlinje</Link>
         <Link to="/vip/">VIP</Link>
         <Link to="/vip-klubb/">VIP-klubb</Link>
-        <Link to="/videopoker/">Videopoker</Link>
-        <Link to="/videoslots/">Videoslots</Link>
+        <Link to="/virtuell-sport/">Virtuell sport</Link>
       </div>
 
       {/* W */}
@@ -344,21 +354,21 @@ const IndexPage = () => (
     <div className="information">
       <div className="block one">
         <h2>Vad är Svenska Spel Ord?</h2>
-        <p>Svenska Spel Ord är Sveriges största ordlista för casino och betting. Vi listar kända spel ord och begrepp. Alla orden vi listar används både på landbaserade casinon och på nätet.</p>
+        <p>Svenska Spel Ord är Sveriges största ordlista för casino och betting. Vi listar kända spel termer och begrepp. Alla orden vi listar används både på landbaserade casinon och på nätet.</p>
       </div>
 
       <div className="block two">
         <h2>Varför Svenska Spel Ord?</h2>
-        <p>Sidan skapades av en enkel anledning, att hjälpa dig som spelar eller vill komma igång och börja spela till att bli mer bekant med termer och begrepp som används inom spelvärlden. För alla har vi varit färskingar någon gång och allt inom casino och betting är inte självklart. Utan ibland kan det vara rätt så kostsamt ifall man råkar använda Max bet knappen eller liknande utan att riktigt veta vad man trycker på.</p>
+        <p>Sidan skapades av en enkel anledning, att hjälpa dig som spelar eller vill komma igång och börja spela till att bli mer bekant med orden och begrepp som används inom spelvärlden. För alla har vi varit färskingar någon gång och allt inom casino och betting är inte självklart. Utan ibland kan det vara rätt så kostsamt ifall man råkar använda Max bet knappen eller liknande utan att riktigt veta vad man trycker på.</p>
       </div>
 
       <div className="block three">
-        <h2>Casino ord</h2>
+        <h2>Casino termer</h2>
         <p>Det finns en uppsjö av olika ord och termer som används inom casinon. Vissa ord är betydelsen självklar och andra är inte lika självklara. Hos oss hittar du förklaringar på ord som till exempel sticky wild, casino bonusar, bonusspel, freespins och annat som kan förekomma ofta inom casino. Kommer du över något casino ord du inte riktigt förstår så hoppas vi du finner det i vår ordlista. Skulle det vara så att det inte finns med får du mer än gärna kontakta oss så lägger vi till det.</p>
       </div>
 
       <div className="block four">
-        <h2>Betting ord</h2>
+        <h2>Betting begrepp</h2>
         <p>Om man är nybörjare när det kommer till betting kan det ibland vara svårt att hänga med och förstå sig på alla svenska betting ord. Det finns en hel djungel av olika sidospel och bets man kan göra som inte alltid är lätt att förstå sig på. Men med hjälp av våran ordlista så får man en skjuts i rätt riktning.</p>
       </div>
 

@@ -6,10 +6,10 @@ import SEO from "../components/seo"
 
 const Word = () => (
   <Layout>
-    <SEO title="Vad är turnering?" />
+    <SEO title="Vad är IGT?" />
     <div className="content-header">
-      <h1>Vad är turnering?</h1>
-      <p>En turnering som anordnas av ett casino och kan vara i olika former och oftast går ut på att samla poäng. Spelare som vinner oftast delar på en summa pengar, freespins eller andra priser.</p>
+      <h1>Vad är IGT?</h1>
+      <p>IGT står för International Game Technology och är ett företag som har skapat slots åt landsbaserade casinon. Idag utvecklar IGT även digitala spel som erbjuds överallt runt om i världen.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>
