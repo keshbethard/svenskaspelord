@@ -9,7 +9,7 @@ const Word = () => (
     <SEO title="Vad betyder free spins utan omsättning?" />
     <div className="content-header">
       <h1>Vad betyder free spins utan omsättning?</h1>
-      <p>Free spins som du kan ta ut summan du vinner direkt efter du har spelat klart.</p>
+      <p><Link to="/free-spins/">Free spins</Link> som du kan ta ut summan du vinner direkt efter du har spelat klart.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

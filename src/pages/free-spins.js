@@ -8,8 +8,8 @@ const Word = () => (
   <Layout>
     <SEO title="Vad betyder free spins?" />
     <div className="content-header">
-      <h1>Vad betyder freespins?</h1>
-      <p>Gratis snurr på slotmaskiner för riktiga pengar.</p>
+      <h1>Vad betyder free spins?</h1>
+      <p>Gratis snurr på slotmaskiner om riktiga pengar.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

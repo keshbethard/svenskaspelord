@@ -9,7 +9,7 @@ const Word = () => (
     <SEO title="Vad betyder klassiska slots?" />
     <div className="content-header">
       <h1>Vad betyder klassiska slots?</h1>
-      <p>Retroaktiga slots som oftast har bara tre hjul.</p>
+      <p>Retroaktiga <Link to="/slots/">slots</Link> som oftast har bara tre hjul.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

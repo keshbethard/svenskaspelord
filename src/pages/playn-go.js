@@ -9,7 +9,7 @@ const Word = () => (
     <SEO title="Vad är Play'n GO?" />
     <div className="content-header">
       <h1>Vad är Play'n GO?</h1>
-      <p>Ett svensk företag från Växjö som framförallt utvecklar casinospel.</p>
+      <p><a href="https://www.playngo.com/" target="_blank">Play'n GO</a> är ett svensk företag från Växjö som framförallt utvecklar casinospel.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

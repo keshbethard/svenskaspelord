@@ -9,7 +9,7 @@ const Word = () => (
     <SEO title="Vad betyder casino med Swish?" />
     <div className="content-header">
       <h1>Vad betyder casino med Swish?</h1>
-      <p>Casino som erbjuder den populära betalningsmetod Swish.</p>
+      <p>Casino som erbjuder den populära betalningsmetod <a href="https://www.getswish.se/" target="_blank">Swish</a>.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

@@ -293,6 +293,7 @@ const IndexPage = () => (
         <Link to="/starburst/">Starburst</Link>
         <Link to="/sthlm-gaming/">Sthlm Gaming</Link>
         <Link to="/sticky-wild/">Sticky wild</Link>
+        <Link to="/stodlinjen/">Stödlinjen.se</Link>
         <Link to="/sure-bets/">Sure bets</Link>
         <Link to="/svensk-spellicens/">Svensk spellicens</Link>
         <Link to="/svenska-casino/">Svenska casino</Link>
@@ -377,7 +378,7 @@ const IndexPage = () => (
       <div className="block five">
         <h2>Samarbete med Alcasino.se™</h2>
         <div className="wrapper">
-          <p>Många spelare vänder sig till oss för att få hjälp med deras spel för det är inte alltid lätt att förstå alla ord och termer som används på ett casino eller bettingsajt. Vi har valt att samarbete med <a href="https://alcasino.se" target="_blank">Alcasino.se™</a> på grund av att vi tycker de levererar en hög standard på information om <strong><i>online casino</i></strong>, <strong><i>casino bonusar</i></strong>, <strong><i>free spins</i></strong> och <strong><i>betting</i></strong>. Du hittar snabb information om vilka online casino och casino bonusar som är bäst och framför allt är de väldigt duktiga på just esport betting då vi vet att de har ett före detta esport proffs som är involverad. Deras kunskap inom just esport är av absoluta toppklass.</p>
+          <p>Många spelare vänder sig till oss för att få hjälp med deras spel för det är inte alltid lätt att förstå alla ord och termer som används på ett casino eller bettingsajt. Vi har valt att samarbete med <a href="https://alcasino.se" target="_blank">Alcasino</a> på grund av att vi tycker de levererar en hög standard på information om <strong><i>online casino</i></strong>, <strong><i>casino bonusar</i></strong>, <strong><i>free spins</i></strong> och <strong><i>betting</i></strong>. Du hittar snabb information om vilka online casino och casino bonusar som är bäst och framför allt är de väldigt duktiga på just esport betting då vi vet att de har ett före detta esport proffs som är involverad. Deras kunskap inom just esport är av absoluta toppklass.</p>
           <div className="image">
           <a href="https://alcasino.se" target="_blank"><img src={alcasino} alt="Alcasino" title="Svenska Spel Ord rekommenderar Alcasino.se" /></a>
           </div>

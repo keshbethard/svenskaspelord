@@ -6,10 +6,10 @@ import SEO from "../components/seo"
 
 const Word = () => (
   <Layout>
-    <SEO title="Trustly casino" />
+    <SEO title="Vad är Stödlinjen.se?" />
     <div className="content-header">
-      <h1>Trustly casino</h1>
-      <p>Casinon som erbjuder insättningar och uttag med <a href="https://trustly.com/se/" target="_blank">Trustly</a>.</p>
+      <h1>Vad är Stödlinjen.se?</h1>
+      <p><a href="https://www.stodlinjen.se/" target="_blank">Stödlinjen.se</a> är första hjälpen vid spelproblem.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

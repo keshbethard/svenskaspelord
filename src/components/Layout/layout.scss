@@ -32,6 +32,7 @@ h2 {
 
 h3 {
   font-size: 20px;
+  margin: 10px 0 5px 0;
 
   @media only screen and (min-width: 767px)  {
     font-size: 24px;
@@ -107,6 +108,8 @@ a {
       p {
         max-width: 600px;
         margin: 0 auto;
+        text-align: justify;
+        text-align-last: center;
       }
 
       .back-button {

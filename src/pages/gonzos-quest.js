@@ -9,7 +9,7 @@ const Word = () => (
     <SEO title="Vad är Gonzo's Quest?" />
     <div className="content-header">
       <h1>Vad är Gonzo's Quest?</h1>
-      <p>Otroligt populär videoslot från NetEnt med fortsatt spel efter vunnen rad.</p>
+      <p>Otroligt populär videoslot från <Link to="/netent/">NetEnt</Link> med fortsatt spel efter vunnen rad.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

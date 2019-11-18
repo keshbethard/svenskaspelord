@@ -9,7 +9,7 @@ const Word = () => (
     <SEO title="Vad betyder Spelpaus?" />
     <div className="content-header">
       <h1>Vad betyder Spelpaus?</h1>
-      <p>En funktion som gör att du enkelt kan stänga av dig från spel om pengar på samtliga svenska spelbolag samtidigt.</p>
+      <p>En funktion som gör att du enkelt kan stänga av dig från spel om pengar på samtliga svenska spelbolag.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

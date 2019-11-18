@@ -9,7 +9,7 @@ const Word = () => (
     <SEO title="Vad är BankID?" />
     <div className="content-header">
       <h1>Vad är BankID?</h1>
-      <p>En elektronisk legitimation, kan användas för att logga in på casinon eller för att göra en insättning.</p>
+      <p><a href="https://www.bankid.com/" target="_blank">BankID</a> är en elektronisk legitimation. Den kan användas för att logga in på casinon eller för att göra en insättning.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>
