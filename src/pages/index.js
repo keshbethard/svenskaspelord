@@ -95,6 +95,7 @@ const IndexPage = () => (
         <Link to="/cash-out/">Cash out</Link>
         <Link to="/casino/">Casino</Link>
         <Link to="/casino-bonus/">Casino bonus</Link>
+        <Link to="/casino-cosmopol/">Casino Cosmopol</Link>
         <Link to="/casino-holdem/">Casino Hold'Em</Link>
         <Link to="/casino-med-swish/">Casino med Swish</Link>
         <Link to="/casino-online/">Casino online</Link>
@@ -106,7 +107,7 @@ const IndexPage = () => (
       {/* D */}
       <div className="word-category" id="d">
         <div className="word-letter">D</div>
-        <Link to="/dalenbert-system/">D´Alenbert system</Link>
+        <Link to="/dalembert-system/">D´Alembert system</Link>
         <Link to="/dealer/">Dealer</Link>
         <Link to="/dice/">Dice</Link>
         <Link to="/dime-bet/">Dime bet</Link>
@@ -272,6 +273,8 @@ const IndexPage = () => (
         <Link to="/reel-spins/">Reel spins</Link>
         <Link to="/relax-gaming/">Relax Gaming</Link>
         <Link to="/roulette/">Roulette</Link>
+        <Link to="/roulette-satsningar/">Roulette satsningar</Link>
+        <Link to="/roulette-system/">Roulette system</Link>
         <Link to="/rng/">RNG</Link>
         <Link to="/roi/">ROI</Link>
         <Link to="/rtp/">RTP</Link>

@@ -6,10 +6,10 @@ import SEO from "../components/seo"
 
 const Word = () => (
   <Layout>
-    <SEO title="Vad är D´Alenbert system?" />
+    <SEO title="Vad är Casino Cosmopol?" />
     <div className="content-header">
-      <h1>Vad är D´Alenbert system?</h1>
-      <p>Ett spelsystem i Roulette där spelaren höjer eller sänker sin insats med ett steg efter varje vinst eller förlust.</p>
+      <h1>Vad är Casino Cosmopol?</h1>
+      <p>De enda landbaserade casinon som finns i Sverige. Det finns totalt fyra sådanna och de är placerade i Stockholm, Göteborg, Malmö och Sundsvall.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>
