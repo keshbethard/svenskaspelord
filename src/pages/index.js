@@ -8,7 +8,7 @@ import alcasino from "../images/alcasino.png"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Casino och betting termer" />
+    <SEO title="A till Ö" />
 
     <div className="letters">
       <Link to="/#0">0</Link>
@@ -41,7 +41,7 @@ const IndexPage = () => (
 
     <div className="landing-content-header">
       <div>
-        <h1>Casino och betting termer</h1>
+        <h1>Ordlista för <span>casino och betting</span></h1>
         <h3>Vi förklarar alla casino och betting ord, termer, begrepp och slangord.</h3>
       </div>
     </div>
@@ -78,6 +78,7 @@ const IndexPage = () => (
         <Link to="/betting/">Betting</Link>
         <Link to="/betting-bonus/">Betting bonus</Link>
         <Link to="/betting-online/">Betting online</Link>
+        <Link to="/bettingsida/">Bettingsida</Link>
         <Link to="/big-time-gaming/">Big Time Gaming</Link>
         <Link to="/bingo/">Bingo</Link>
         <Link to="/bingo-online/">Bingo online</Link>
@@ -101,6 +102,7 @@ const IndexPage = () => (
         <Link to="/casino-online/">Casino online</Link>
         <Link to="/casino-utan-konto/">Casino utan konto</Link>
         <Link to="/casino-utan-registrering/">Casino utan registrering</Link>
+        <Link to="/casinosajt/">Casinosajt</Link>
         <Link to="/craps/">Craps</Link>
       </div>
 
@@ -108,6 +110,7 @@ const IndexPage = () => (
       <div className="word-category" id="d">
         <div className="word-letter">D</div>
         <Link to="/dalembert-system/">D´Alembert system</Link>
+        <Link to="/dagens-freespin/">Dagens freespin</Link>
         <Link to="/dealer/">Dealer</Link>
         <Link to="/dice/">Dice</Link>
         <Link to="/dime-bet/">Dime bet</Link>
@@ -146,6 +149,7 @@ const IndexPage = () => (
         <Link to="/gratis-bonus/">Gratis bonus</Link>
         <Link to="/gratis-freespins/">Gratis freespins</Link>
         <Link to="/gratis-gavor/">Gratis gåvor</Link>
+        <Link to="/gratissnurr/">Gratissnurr</Link>
       </div>
 
       {/* H */}
@@ -183,6 +187,7 @@ const IndexPage = () => (
         <Link to="/jack-vegas/">Jack Vegas</Link>
         <Link to="/jackpot/">Jackpot</Link>
         <Link to="/jackpotslot/">Jackpotslot</Link>
+        <Link to="/jackpottvinnare/">Jackpottvinnare</Link>
         <Link to="/jammin-jars/">Jammin Jars</Link>
         <Link to="/jftw/">JFTW</Link>
         <Link to="/jumanji/">Jumanji</Link>
@@ -219,6 +224,7 @@ const IndexPage = () => (
         <Link to="/matchningsbonus/">Matchningsbonus</Link>
         <Link to="/mega-fortune">Mega Fortune</Link>
         <Link to="/mega-moolah/">Mega Moolah</Link>
+        <Link to="/megaways/">Megaways</Link>
         <Link to="/microgaming/">Microgaming</Link>
         <Link to="/mobilcasino/">Mobilcasino</Link>
         <Link to="/mr-green/">Mr Green</Link>
@@ -268,6 +274,7 @@ const IndexPage = () => (
       {/* R */}
       <div className="word-category" id="r">
         <div className="word-letter">R</div>
+        <Link to="/random-wild/">Random Wild</Link>
         <Link to="/re-spin/">Re-spin</Link>
         <Link to="/re-trigger/">Re-trigger</Link>
         <Link to="/reel-spins/">Reel spins</Link>

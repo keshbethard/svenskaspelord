@@ -6,10 +6,10 @@ import SEO from "../components/seo"
 
 const Word = () => (
   <Layout>
-    <SEO title="Vad är D´Alembert system?" />
+    <SEO title="Vad betyder random wild?" />
     <div className="content-header">
-      <h1>Vad är D´Alembert system?</h1>
-      <p>Ett spelsystem i <Link to="/roulette/">Roulette</Link> där spelaren höjer eller sänker sin insats med ett steg efter varje vinst eller förlust.</p>
+      <h1>Vad betyder random wild?</h1>
+      <p>En <Link to="/wild/">wild-symbol</Link> som delas ut slumpmässigt.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>

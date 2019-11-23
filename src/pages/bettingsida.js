@@ -6,10 +6,10 @@ import SEO from "../components/seo"
 
 const Word = () => (
   <Layout>
-    <SEO title="Vad är D´Alembert system?" />
+    <SEO title="Vad betyder bettingsida?" />
     <div className="content-header">
-      <h1>Vad är D´Alembert system?</h1>
-      <p>Ett spelsystem i <Link to="/roulette/">Roulette</Link> där spelaren höjer eller sänker sin insats med ett steg efter varje vinst eller förlust.</p>
+      <h1>Vad betyder bettingsida?</h1>
+      <p>En webbsida som erbjuder spel om pengar där man satsar på matcher eller andra evenemang.</p>
       <Link to="/" className="back-button">Tillbaka till startsidan</Link>
     </div>
   </Layout>
