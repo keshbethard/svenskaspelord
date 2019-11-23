@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[25],{239:function(e,a,t){"use strict";t.r(a);var n=t(2),l=t.n(n),r=t(101),c=t(215),i=t(214);a.default=function(){return l.a.createElement(c.a,null,l.a.createElement(i.a,{title:"Vad betyder BJ?"}),l.a.createElement("div",{className:"content-header"},l.a.createElement("h1",null,"Vad betyder BJ?"),l.a.createElement("p",null,"Förkortning för Blackjack"),l.a.createElement(r.a,{to:"/",className:"back-button"},"Tillbaka till startsidan")))}}}]);
+//# sourceMappingURL=component---src-pages-bj-js-fb79743d7c244f86f299.js.map
